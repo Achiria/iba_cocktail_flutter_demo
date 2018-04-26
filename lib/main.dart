@@ -84,7 +84,7 @@ class SecondScreen extends StatelessWidget {
             new Container(
               padding: const EdgeInsets.only(top: 10.0),
               child: new Text(
-                descriptions[getDrinkValue(drinkName)],softWrap: true,
+                descriptions[getDrinkValue(drinkName)]+ '\n',softWrap: true,
                 style: new TextStyle(
                   fontSize: 24.0,
                 ),
@@ -93,7 +93,7 @@ class SecondScreen extends StatelessWidget {
             new Container(
               padding: const EdgeInsets.only(top: 10.0),
               child: new Text(
-                instructions[getDrinkValue(drinkName)], softWrap: true,
+                instructions[getDrinkValue(drinkName)]+ '\n', softWrap: true,
                 style: new TextStyle(
                     fontSize: 20.0,
                 ),
